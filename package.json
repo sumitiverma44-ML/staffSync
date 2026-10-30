@@ -1,0 +1,14 @@
+{
+  "name": "staffsync",
+  "version": "1.0.0",
+  "description": "StaffSync - Modern Full Stack HR Management System",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "server": "node backend/src/server.js",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": ["hrms", "hr-management", "react", "express", "mongodb", "bootstrap"],
+  "author": "StaffSync Team",
+  "license": "ISC"
+}
